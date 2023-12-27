@@ -17,8 +17,12 @@ struct ContentView: View {
         }
         .padding()
         .task {
-            let response = try? await api.getObjects()
+            let response = try? await api.getObjects(19)
             print()
+//            guard let departments = response?.departments else { return }
+//            for department in departments {
+//                print("Department Id: \(department.departmentId) | Name: \(department.departmentId)")
+//            }
         }
     }
 }

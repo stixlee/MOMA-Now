@@ -24,4 +24,15 @@ extension Api {
         return try? JSONDecoder().decode(ObjectsResponse.self, from: data)
     }
     
+    func getObjects(_ id: Int) async throws -> ObjectsResponse? {
+        let fullPath = baseUrlPath+"/public/collection/v1/objects?departmentIds=\(id)"
+        guard let url = URL(string: fullPath) else { return nil }
+        print("url: \(url.absoluteString)")
+        let (data, response) = try await URLSession.shared.data(from: url)
+        guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
+           throw ApiError.invalidResponse
+        }
+        return try? JSONDecoder().decode(ObjectsResponse.self, from: data)
+    }
+
 }

@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct DepartmentsResponse: Codable {
+    let departments: [Department]
+}

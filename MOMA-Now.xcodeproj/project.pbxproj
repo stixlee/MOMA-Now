@@ -19,6 +19,9 @@
 		90E2464B2B3CD48900752972 /* Api+Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E2464A2B3CD48900752972 /* Api+Objects.swift */; };
 		90E2464E2B3CD4F700752972 /* WorkOfArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E2464D2B3CD4F700752972 /* WorkOfArt.swift */; };
 		90E246502B3CD72600752972 /* ObjectsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E2464F2B3CD72600752972 /* ObjectsResponse.swift */; };
+		90E246522B3CDDA400752972 /* Api+Departments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E246512B3CDDA400752972 /* Api+Departments.swift */; };
+		90E246542B3CDE5100752972 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E246532B3CDE5100752972 /* Department.swift */; };
+		90E246562B3CDF0300752972 /* DepartmentsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E246552B3CDF0300752972 /* DepartmentsResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		90E2464A2B3CD48900752972 /* Api+Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+Objects.swift"; sourceTree = "<group>"; };
 		90E2464D2B3CD4F700752972 /* WorkOfArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOfArt.swift; sourceTree = "<group>"; };
 		90E2464F2B3CD72600752972 /* ObjectsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectsResponse.swift; sourceTree = "<group>"; };
+		90E246512B3CDDA400752972 /* Api+Departments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+Departments.swift"; sourceTree = "<group>"; };
+		90E246532B3CDE5100752972 /* Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+		90E246552B3CDF0300752972 /* DepartmentsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +151,7 @@
 				90E246462B3CD2B800752972 /* Api.swift */,
 				90E246482B3CD37400752972 /* Endpoints.swift */,
 				90E2464A2B3CD48900752972 /* Api+Objects.swift */,
+				90E246512B3CDDA400752972 /* Api+Departments.swift */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -154,6 +161,8 @@
 			children = (
 				90E2464D2B3CD4F700752972 /* WorkOfArt.swift */,
 				90E2464F2B3CD72600752972 /* ObjectsResponse.swift */,
+				90E246532B3CDE5100752972 /* Department.swift */,
+				90E246552B3CDF0300752972 /* DepartmentsResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -290,8 +299,11 @@
 			files = (
 				90E2464B2B3CD48900752972 /* Api+Objects.swift in Sources */,
 				90E246472B3CD2B800752972 /* Api.swift in Sources */,
+				90E246562B3CDF0300752972 /* DepartmentsResponse.swift in Sources */,
+				90E246542B3CDE5100752972 /* Department.swift in Sources */,
 				90E2461E2B3CD24A00752972 /* ContentView.swift in Sources */,
 				90E246492B3CD37400752972 /* Endpoints.swift in Sources */,
+				90E246522B3CDDA400752972 /* Api+Departments.swift in Sources */,
 				90E246502B3CD72600752972 /* ObjectsResponse.swift in Sources */,
 				90E2461C2B3CD24A00752972 /* MOMA_NowApp.swift in Sources */,
 				90E2464E2B3CD4F700752972 /* WorkOfArt.swift in Sources */,

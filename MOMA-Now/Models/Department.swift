@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct Department: Codable {
+    let departmentId: Int
+    let displayName: String
+}
