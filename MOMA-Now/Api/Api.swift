@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+let api = Api.shared
+class Api {
+    static fileprivate let shared = Api()
+    
+    let baseUrlPath = "https://collectionapi.metmuseum.org"
+    
+    private init() {
+        
+    }
+}

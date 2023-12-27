@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+enum V1Endpoints: String {
+    case objects = "/public/collection/v1/objects"
+}

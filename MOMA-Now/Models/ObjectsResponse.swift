@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct ObjectsResponse: Codable {
+    let total: Int
+    let objectIDs: [Int]
+}

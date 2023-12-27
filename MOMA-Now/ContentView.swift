@@ -16,6 +16,10 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .task {
+            let response = try? await api.getObjects()
+            print()
+        }
     }
 }
 
