@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90E2461C2B3CD24A00752972 /* MOMA_NowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E2461B2B3CD24A00752972 /* MOMA_NowApp.swift */; };
+		90E2461E2B3CD24A00752972 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E2461D2B3CD24A00752972 /* ContentView.swift */; };
+		90E246202B3CD24C00752972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E2461F2B3CD24C00752972 /* Assets.xcassets */; };
+		90E246232B3CD24C00752972 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E246222B3CD24C00752972 /* Preview Assets.xcassets */; };
+		90E2462D2B3CD24D00752972 /* MOMA_NowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E2462C2B3CD24D00752972 /* MOMA_NowTests.swift */; };
+		90E246372B3CD24D00752972 /* MOMA_NowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E246362B3CD24D00752972 /* MOMA_NowUITests.swift */; };
+		90E246392B3CD24D00752972 /* MOMA_NowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E246382B3CD24D00752972 /* MOMA_NowUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90E246292B3CD24D00752972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90E246102B3CD24A00752972 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90E246172B3CD24A00752972;
+			remoteInfo = "MOMA-Now";
+		};
+		90E246332B3CD24D00752972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90E246102B3CD24A00752972 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90E246172B3CD24A00752972;
+			remoteInfo = "MOMA-Now";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90E246182B3CD24A00752972 /* MOMA-Now.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MOMA-Now.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E2461B2B3CD24A00752972 /* MOMA_NowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOMA_NowApp.swift; sourceTree = "<group>"; };
+		90E2461D2B3CD24A00752972 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		90E2461F2B3CD24C00752972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90E246222B3CD24C00752972 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90E246282B3CD24D00752972 /* MOMA-NowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MOMA-NowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E2462C2B3CD24D00752972 /* MOMA_NowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOMA_NowTests.swift; sourceTree = "<group>"; };
+		90E246322B3CD24D00752972 /* MOMA-NowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MOMA-NowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E246362B3CD24D00752972 /* MOMA_NowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOMA_NowUITests.swift; sourceTree = "<group>"; };
+		90E246382B3CD24D00752972 /* MOMA_NowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOMA_NowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90E246152B3CD24A00752972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E246252B3CD24D00752972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E2462F2B3CD24D00752972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90E2460F2B3CD24A00752972 = {
+			isa = PBXGroup;
+			children = (
+				90E2461A2B3CD24A00752972 /* MOMA-Now */,
+				90E2462B2B3CD24D00752972 /* MOMA-NowTests */,
+				90E246352B3CD24D00752972 /* MOMA-NowUITests */,
+				90E246192B3CD24A00752972 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90E246192B3CD24A00752972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90E246182B3CD24A00752972 /* MOMA-Now.app */,
+				90E246282B3CD24D00752972 /* MOMA-NowTests.xctest */,
+				90E246322B3CD24D00752972 /* MOMA-NowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90E2461A2B3CD24A00752972 /* MOMA-Now */ = {
+			isa = PBXGroup;
+			children = (
+				90E2461B2B3CD24A00752972 /* MOMA_NowApp.swift */,
+				90E2461D2B3CD24A00752972 /* ContentView.swift */,
+				90E2461F2B3CD24C00752972 /* Assets.xcassets */,
+				90E246212B3CD24C00752972 /* Preview Content */,
+			);
+			path = "MOMA-Now";
+			sourceTree = "<group>";
+		};
+		90E246212B3CD24C00752972 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				90E246222B3CD24C00752972 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		90E2462B2B3CD24D00752972 /* MOMA-NowTests */ = {
+			isa = PBXGroup;
+			children = (
+				90E2462C2B3CD24D00752972 /* MOMA_NowTests.swift */,
+			);
+			path = "MOMA-NowTests";
+			sourceTree = "<group>";
+		};
+		90E246352B3CD24D00752972 /* MOMA-NowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90E246362B3CD24D00752972 /* MOMA_NowUITests.swift */,
+				90E246382B3CD24D00752972 /* MOMA_NowUITestsLaunchTests.swift */,
+			);
+			path = "MOMA-NowUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90E246172B3CD24A00752972 /* MOMA-Now */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E2463C2B3CD24D00752972 /* Build configuration list for PBXNativeTarget "MOMA-Now" */;
+			buildPhases = (
+				90E246142B3CD24A00752972 /* Sources */,
+				90E246152B3CD24A00752972 /* Frameworks */,
+				90E246162B3CD24A00752972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MOMA-Now";
+			productName = "MOMA-Now";
+			productReference = 90E246182B3CD24A00752972 /* MOMA-Now.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90E246272B3CD24D00752972 /* MOMA-NowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E2463F2B3CD24D00752972 /* Build configuration list for PBXNativeTarget "MOMA-NowTests" */;
+			buildPhases = (
+				90E246242B3CD24D00752972 /* Sources */,
+				90E246252B3CD24D00752972 /* Frameworks */,
+				90E246262B3CD24D00752972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90E2462A2B3CD24D00752972 /* PBXTargetDependency */,
+			);
+			name = "MOMA-NowTests";
+			productName = "MOMA-NowTests";
+			productReference = 90E246282B3CD24D00752972 /* MOMA-NowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90E246312B3CD24D00752972 /* MOMA-NowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E246422B3CD24D00752972 /* Build configuration list for PBXNativeTarget "MOMA-NowUITests" */;
+			buildPhases = (
+				90E2462E2B3CD24D00752972 /* Sources */,
+				90E2462F2B3CD24D00752972 /* Frameworks */,
+				90E246302B3CD24D00752972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90E246342B3CD24D00752972 /* PBXTargetDependency */,
+			);
+			name = "MOMA-NowUITests";
+			productName = "MOMA-NowUITests";
+			productReference = 90E246322B3CD24D00752972 /* MOMA-NowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90E246102B3CD24A00752972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					90E246172B3CD24A00752972 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					90E246272B3CD24D00752972 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 90E246172B3CD24A00752972;
+					};
+					90E246312B3CD24D00752972 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 90E246172B3CD24A00752972;
+					};
+				};
+			};
+			buildConfigurationList = 90E246132B3CD24A00752972 /* Build configuration list for PBXProject "MOMA-Now" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90E2460F2B3CD24A00752972;
+			productRefGroup = 90E246192B3CD24A00752972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90E246172B3CD24A00752972 /* MOMA-Now */,
+				90E246272B3CD24D00752972 /* MOMA-NowTests */,
+				90E246312B3CD24D00752972 /* MOMA-NowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90E246162B3CD24A00752972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E246232B3CD24C00752972 /* Preview Assets.xcassets in Resources */,
+				90E246202B3CD24C00752972 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E246262B3CD24D00752972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E246302B3CD24D00752972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90E246142B3CD24A00752972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E2461E2B3CD24A00752972 /* ContentView.swift in Sources */,
+				90E2461C2B3CD24A00752972 /* MOMA_NowApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E246242B3CD24D00752972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E2462D2B3CD24D00752972 /* MOMA_NowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E2462E2B3CD24D00752972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E246392B3CD24D00752972 /* MOMA_NowUITestsLaunchTests.swift in Sources */,
+				90E246372B3CD24D00752972 /* MOMA_NowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90E2462A2B3CD24D00752972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90E246172B3CD24A00752972 /* MOMA-Now */;
+			targetProxy = 90E246292B3CD24D00752972 /* PBXContainerItemProxy */;
+		};
+		90E246342B3CD24D00752972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90E246172B3CD24A00752972 /* MOMA-Now */;
+			targetProxy = 90E246332B3CD24D00752972 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		90E2463A2B3CD24D00752972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90E2463B2B3CD24D00752972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90E2463D2B3CD24D00752972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MOMA-Now/Preview Content\"";
+				DEVELOPMENT_TEAM = TWJ263959T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stixlee.MOMA-Now";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90E2463E2B3CD24D00752972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MOMA-Now/Preview Content\"";
+				DEVELOPMENT_TEAM = TWJ263959T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stixlee.MOMA-Now";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90E246402B3CD24D00752972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWJ263959T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stixlee.MOMA-NowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOMA-Now.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MOMA-Now";
+			};
+			name = Debug;
+		};
+		90E246412B3CD24D00752972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWJ263959T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stixlee.MOMA-NowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOMA-Now.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MOMA-Now";
+			};
+			name = Release;
+		};
+		90E246432B3CD24D00752972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWJ263959T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stixlee.MOMA-NowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MOMA-Now";
+			};
+			name = Debug;
+		};
+		90E246442B3CD24D00752972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWJ263959T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stixlee.MOMA-NowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MOMA-Now";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90E246132B3CD24A00752972 /* Build configuration list for PBXProject "MOMA-Now" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E2463A2B3CD24D00752972 /* Debug */,
+				90E2463B2B3CD24D00752972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E2463C2B3CD24D00752972 /* Build configuration list for PBXNativeTarget "MOMA-Now" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E2463D2B3CD24D00752972 /* Debug */,
+				90E2463E2B3CD24D00752972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E2463F2B3CD24D00752972 /* Build configuration list for PBXNativeTarget "MOMA-NowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E246402B3CD24D00752972 /* Debug */,
+				90E246412B3CD24D00752972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E246422B3CD24D00752972 /* Build configuration list for PBXNativeTarget "MOMA-NowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E246432B3CD24D00752972 /* Debug */,
+				90E246442B3CD24D00752972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90E246102B3CD24A00752972 /* Project object */;
+}
