@@ -17,11 +17,18 @@ struct ContentView: View {
         }
         .padding()
         .task {
-            let response = try? await api.getObjects(19)
-            print()
+            do {
+                let response = try await api.getCollection(for: 3)
+                print()
+            } catch (let error) {
+                print(error)
+            }
+//            let list = try? await api.getObjectsWithImage()
+//            let response = try? await api.getObject(with: 47112)
+//            print()
 //            guard let departments = response?.departments else { return }
 //            for department in departments {
-//                print("Department Id: \(department.departmentId) | Name: \(department.departmentId)")
+//                print("Department Id: \(department.departmentId) | Name: \(department.displayName)")
 //            }
         }
     }

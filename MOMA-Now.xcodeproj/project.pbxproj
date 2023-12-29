@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		908585152B3DD1FA00DD353C /* BufferedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908585142B3DD1FA00DD353C /* BufferedObjects.swift */; };
+		908585172B3F2D4600DD353C /* Api+RequestBuilders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908585162B3F2D4600DD353C /* Api+RequestBuilders.swift */; };
 		90E2461C2B3CD24A00752972 /* MOMA_NowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E2461B2B3CD24A00752972 /* MOMA_NowApp.swift */; };
 		90E2461E2B3CD24A00752972 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E2461D2B3CD24A00752972 /* ContentView.swift */; };
 		90E246202B3CD24C00752972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E2461F2B3CD24C00752972 /* Assets.xcassets */; };
@@ -18,7 +20,7 @@
 		90E246492B3CD37400752972 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E246482B3CD37400752972 /* Endpoints.swift */; };
 		90E2464B2B3CD48900752972 /* Api+Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E2464A2B3CD48900752972 /* Api+Objects.swift */; };
 		90E2464E2B3CD4F700752972 /* WorkOfArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E2464D2B3CD4F700752972 /* WorkOfArt.swift */; };
-		90E246502B3CD72600752972 /* ObjectsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E2464F2B3CD72600752972 /* ObjectsResponse.swift */; };
+		90E246502B3CD72600752972 /* ArtCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E2464F2B3CD72600752972 /* ArtCollection.swift */; };
 		90E246522B3CDDA400752972 /* Api+Departments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E246512B3CDDA400752972 /* Api+Departments.swift */; };
 		90E246542B3CDE5100752972 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E246532B3CDE5100752972 /* Department.swift */; };
 		90E246562B3CDF0300752972 /* DepartmentsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E246552B3CDF0300752972 /* DepartmentsResponse.swift */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		908585142B3DD1FA00DD353C /* BufferedObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferedObjects.swift; sourceTree = "<group>"; };
+		908585162B3F2D4600DD353C /* Api+RequestBuilders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+RequestBuilders.swift"; sourceTree = "<group>"; };
 		90E246182B3CD24A00752972 /* MOMA-Now.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MOMA-Now.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E2461B2B3CD24A00752972 /* MOMA_NowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOMA_NowApp.swift; sourceTree = "<group>"; };
 		90E2461D2B3CD24A00752972 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,7 +60,7 @@
 		90E246482B3CD37400752972 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		90E2464A2B3CD48900752972 /* Api+Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+Objects.swift"; sourceTree = "<group>"; };
 		90E2464D2B3CD4F700752972 /* WorkOfArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOfArt.swift; sourceTree = "<group>"; };
-		90E2464F2B3CD72600752972 /* ObjectsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectsResponse.swift; sourceTree = "<group>"; };
+		90E2464F2B3CD72600752972 /* ArtCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCollection.swift; sourceTree = "<group>"; };
 		90E246512B3CDDA400752972 /* Api+Departments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+Departments.swift"; sourceTree = "<group>"; };
 		90E246532B3CDE5100752972 /* Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
 		90E246552B3CDF0300752972 /* DepartmentsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsResponse.swift; sourceTree = "<group>"; };
@@ -152,6 +156,7 @@
 				90E246482B3CD37400752972 /* Endpoints.swift */,
 				90E2464A2B3CD48900752972 /* Api+Objects.swift */,
 				90E246512B3CDDA400752972 /* Api+Departments.swift */,
+				908585162B3F2D4600DD353C /* Api+RequestBuilders.swift */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -160,9 +165,10 @@
 			isa = PBXGroup;
 			children = (
 				90E2464D2B3CD4F700752972 /* WorkOfArt.swift */,
-				90E2464F2B3CD72600752972 /* ObjectsResponse.swift */,
+				90E2464F2B3CD72600752972 /* ArtCollection.swift */,
 				90E246532B3CDE5100752972 /* Department.swift */,
 				90E246552B3CDF0300752972 /* DepartmentsResponse.swift */,
+				908585142B3DD1FA00DD353C /* BufferedObjects.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -298,13 +304,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				90E2464B2B3CD48900752972 /* Api+Objects.swift in Sources */,
+				908585152B3DD1FA00DD353C /* BufferedObjects.swift in Sources */,
 				90E246472B3CD2B800752972 /* Api.swift in Sources */,
 				90E246562B3CDF0300752972 /* DepartmentsResponse.swift in Sources */,
+				908585172B3F2D4600DD353C /* Api+RequestBuilders.swift in Sources */,
 				90E246542B3CDE5100752972 /* Department.swift in Sources */,
 				90E2461E2B3CD24A00752972 /* ContentView.swift in Sources */,
 				90E246492B3CD37400752972 /* Endpoints.swift in Sources */,
 				90E246522B3CDDA400752972 /* Api+Departments.swift in Sources */,
-				90E246502B3CD72600752972 /* ObjectsResponse.swift in Sources */,
+				90E246502B3CD72600752972 /* ArtCollection.swift in Sources */,
 				90E2461C2B3CD24A00752972 /* MOMA_NowApp.swift in Sources */,
 				90E2464E2B3CD4F700752972 /* WorkOfArt.swift in Sources */,
 			);
@@ -473,6 +481,7 @@
 				DEVELOPMENT_TEAM = TWJ263959T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Modern Art";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -502,6 +511,7 @@
 				DEVELOPMENT_TEAM = TWJ263959T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Modern Art";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

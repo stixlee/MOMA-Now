@@ -12,7 +12,7 @@ struct WorkOfArt: Codable {
     let isHighlight: Bool
     let accessionNumber: String
     let accessionYear: String
-    let isPublicDomain: String
+    let isPublicDomain: Bool
     let primaryImage: String
     let primaryImageSmall: String
     let additionalImages: [String]

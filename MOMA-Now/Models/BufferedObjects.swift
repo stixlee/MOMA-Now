@@ -9,5 +9,5 @@ import Foundation
 
 class BufferedObjects {
     var objectIds: [Int] = []
-    
+    var buffer: [WorkOfArt] = []
 }
